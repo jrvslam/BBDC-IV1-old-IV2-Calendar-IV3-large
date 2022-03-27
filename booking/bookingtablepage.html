@@ -439,22 +439,28 @@
             var currentTitle = localStorage.getItem('TheorySelection');
             if (currentTitle == 'BTL') {
                 document.getElementById('bookingPageTitle3rd').innerHTML = "Booking For BTL"
+                document.title = "Booking For BTL Calendar Page"
             }
             if (currentTitle == 'BTP') {
                 document.getElementById('bookingPageTitle3rd').innerHTML = "Booking For Basic Theory Practice"
+                document.title = "Booking For Basic Theory Practice Calendar Page"
             }
             if (currentTitle == 'BTE') {
                 document.getElementById('bookingPageTitle3rd').innerHTML = "Booking For Basic Theory Evaluation"
+                document.title = "Booking For Basic Theory Evaluation Calendar Page"
             }
 
             if (currentTitle == 'FTL') {
                 document.getElementById('bookingPageTitle3rd').innerHTML = "Booking For FTL"
+                document.title = "Booking For FTL Calendar Page"
             }
             if (currentTitle == 'FTP') {
                 document.getElementById('bookingPageTitle3rd').innerHTML = "Booking For Final Theory Practice"
+                document.title = "Booking For Final Theory Practice Calendar Page"
             }
             if (currentTitle == 'FTE') {
                 document.getElementById('bookingPageTitle3rd').innerHTML = "Booking For Final Theory Evaluation"
+                document.title = "Booking For Final Theory Evaluation Calendar Page"
             }
             changeOptions()
             changeTable()
